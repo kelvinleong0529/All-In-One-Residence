@@ -1,0 +1,36 @@
+{
+  "student": [
+    {
+      "name": "Leong Zhin Sheng",
+      "number": "517010990022",
+      "marks": "526",
+      "major": "civil engineering",
+      "minor": "computer science",
+      "id": 1
+    },
+    {
+      "name": "John Cena",
+      "number": "517080990022",
+      "marks": "987",
+      "major": "applied maths",
+      "minor": "business",
+      "id": 2
+    },
+    {
+      "name": "Adam",
+      "number": "517020990022",
+      "marks": "456",
+      "major": "accounting",
+      "minor": "computer science",
+      "id": 3
+    },
+    {
+      "name": "Jasmine",
+      "number": "527015986542",
+      "marks": "485",
+      "major": "business",
+      "minor": "civil engineering",
+      "id": 4
+    }
+  ]
+}
