@@ -1,7 +1,7 @@
 import AddStudent from "./Student/AddStudent";
 import "./App.css";
 import Home from "./Home";
-import Navbar from "./Navbar";
+import Navbar from "./Components/Navbar";
 import Announcement from "./Announcement/Announcement";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import StudentDetails from "./Student/StudentDetails";
@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/">    {/* match exactly (same case) */}
               <Home />
             </Route>
             <Route path="/addstudent">

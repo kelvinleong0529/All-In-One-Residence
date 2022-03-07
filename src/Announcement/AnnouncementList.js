@@ -77,7 +77,6 @@ const AnnouncementList = ({ announcement }) => {
             );
           })}
         </tbody>
-        
       </table>
     </div>
   );
