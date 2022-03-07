@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { useTable, useSortBy, useGlobalFilter } from "react-table";
-import GlobalFilter from "./GlobalFilter";
+import GlobalFilter from "../GlobalFilter";
 
 const StudentList = ({ students }) => {
 

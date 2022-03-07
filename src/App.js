@@ -1,25 +1,29 @@
-import AddStudent from './AddStudent';
-import './App.css';
-import Home from './Home';
-import Navbar from './Navbar';
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import StudentDetails from './StudentDetails';
+import AddStudent from "./Student/AddStudent";
+import "./App.css";
+import Home from "./Home";
+import Navbar from "./Navbar";
+import Announcement from "./Announcement/Announcement";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import StudentDetails from "./Student/StudentDetails";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar/>
+        <Navbar />
         <div className="content">
           <Switch>
             <Route exact path="/">
-              <Home/>
+              <Home />
             </Route>
             <Route path="/addstudent">
-              <AddStudent/>
+              <AddStudent />
             </Route>
             <Route path="/student/:id">
               <StudentDetails />
+            </Route>
+            <Route path="/announcement">
+              <Announcement />
             </Route>
           </Switch>
         </div>

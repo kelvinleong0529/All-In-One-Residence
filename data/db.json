@@ -32,5 +32,21 @@
       "minor": "civil engineering",
       "id": 4
     }
+  ],
+  "announcement": [
+    {
+      "title": "Car park Ballot",
+      "content": "Car Park Ballot is going to launch soon.",
+      "date": "06-03-2022",
+      "target": "All Residences",
+      "id": 1
+    },
+    {
+      "title": "Water Disruptance",
+      "content": "Block A is going to face water disruptance.",
+      "date": "10-03-2022",
+      "target": "Block A Residence",
+      "id": 2
+    }
   ]
 }
