@@ -14,6 +14,7 @@ const Navbar = () => {
     setClick(false);
   };
   const showButton = () => {
+    // hide the button whenever the window size is smaller than 960
     if (window.innerWidth <= 960) {
       setButton(false);
     } else {
@@ -54,7 +55,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        {button && <Button buttonStyle="btn-outline">SING UP</Button>}
+        {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
       </div>
     </nav>
   );
