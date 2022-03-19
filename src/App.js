@@ -13,10 +13,9 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/">
-              {" "}
-              {/* match exactly (same case) */}
-              <Home />
+            <Route exact path="/" >
+            {/* match exactly (same case) */}
+            <Home />
             </Route>
             <Route path="/addstudent">
               <AddStudent />
