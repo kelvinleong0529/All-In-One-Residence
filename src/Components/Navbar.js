@@ -57,6 +57,15 @@ const Navbar = () => {
               Announcement
             </Link>
           </li>
+          <li className="nav-item">
+            <Link
+              to="/facilities"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Facilities
+            </Link>
+          </li>
         </ul>
         {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
       </div>

@@ -96,13 +96,24 @@ h1 {
 .cards__item__text {
   font-size: 24px;
   line-height: 24px;
+  color: #091dd4;
 }
 
 .cards__item__description {
-    color: #252e48;
-    font-size: 16px;
-    line-height: 24px;
-  }
+  color: #252e48;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards__item__date {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards__item__venue {
+  font-size: 16px;
+  line-height: 24px;
+}
 
 @media only screen and (min-width: 1200px) {
   .content__blog__container {

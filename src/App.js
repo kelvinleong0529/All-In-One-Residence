@@ -1,10 +1,10 @@
-import AddStudent from "./Student/AddStudent";
+import AddStudent from "./Residence/AddStudent";
 import "./App.css";
 import Home from "./Pages/Home";
 import Navbar from "./Components/Navbar";
 import Announcement from "./Announcement/Announcement";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import StudentDetails from "./Student/StudentDetails";
+import StudentDetails from "./Residence/StudentDetails";
 
 function App() {
   return (

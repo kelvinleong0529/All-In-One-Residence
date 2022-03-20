@@ -1,5 +1,5 @@
 import { useState } from "react";
-import StudentList from "../Student/StudentList";
+import StudentList from "../Residence/StudentList";
 import useFetch from "../useFetch";
 import "../Components/HeroSection";
 import HeroSection from "../Components/HeroSection";
