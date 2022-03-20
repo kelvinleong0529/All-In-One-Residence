@@ -3,7 +3,9 @@ import StudentList from "../Student/StudentList";
 import useFetch from "../useFetch";
 import "../Components/HeroSection";
 import HeroSection from "../Components/HeroSection";
-import '../App.css'
+import "../App.css";
+import Cards from "../Components/Cards";
+import Footer from "./Footer";
 
 const Home = () => {
   const {
@@ -15,13 +17,15 @@ const Home = () => {
   return (
     <>
       <HeroSection />
+      <Cards></Cards>
       <div className="container">
-        <div className="Home">
+        {/* <div className="Home">
           {error && <div>{error}</div>}
           {isPending && <div>Loading...</div>}
           {students && <StudentList students={students} />}
-        </div>
+        </div> */}
       </div>
+      <Footer />
     </>
   );
 };
