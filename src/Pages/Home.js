@@ -5,7 +5,7 @@ import "../Components/HeroSection";
 import HeroSection from "../Components/HeroSection";
 import "../App.css";
 import Cards from "../Components/Cards";
-import Footer from "./Footer";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   const {
