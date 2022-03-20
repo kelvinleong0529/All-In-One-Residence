@@ -1,28 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const CardItem = (props) => {
+function FacilityCardItem(props) {
   return (
     <>
-      <li className="cards__item">
-        <Link className="cards__item__link" to={props.path}>
-          <figure className="cards__item__pic-wrap" data-category={props.label}>
+      <li className="facility__cards__item">
+        <Link className="facility__cards__item__link">
+          <figure
+            className="facility__cards__item__pic-wrap"
+            data-category={props.label}
+          >
             <img
               src={props.src}
               alt={props.alt}
-              className="cards__item__img"
+              className="facility__item__img"
             />
           </figure>
           <div className="cards__item__info">
             <h2 className="cards__item__text">{props.text}</h2>
             <h5 className="cards__item__description">{props.description}</h5>
-            <h5 className="cards__item__date">Date: {props.date}</h5>
-            <h5 className="cards__item__venue">Venue: {props.venue}</h5>
           </div>
         </Link>
       </li>
     </>
   );
-};
+}
 
-export default CardItem;
+export default FacilityCardItem;

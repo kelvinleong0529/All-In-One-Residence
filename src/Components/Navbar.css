@@ -18,6 +18,14 @@
   max-width: 1500px;
 }
 
+.navbar-container > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  color: #fff;
+}
+
 .navbar-logo {
   color: #fff;
   justify-self: start;

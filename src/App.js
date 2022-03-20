@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Announcement from "./Announcement/Announcement";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import StudentDetails from "./Residence/StudentDetails";
+import Facilities from "./Pages/Facilities"
 
 function App() {
   return (
@@ -17,8 +18,7 @@ function App() {
             {/* match exactly (same case) */}
             <Home />
             </Route>
-            <Route path="/addstudent">
-              <AddStudent />
+            <Route path="/facilities" component={Facilities}>
             </Route>
             <Route path="/student/:id">
               <StudentDetails />

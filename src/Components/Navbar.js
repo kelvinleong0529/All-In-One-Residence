@@ -34,18 +34,15 @@ const Navbar = () => {
         {/* <Link to="/" className="navbar-logo" onClick={closeMobileMenu}> */}
         {/*  Link tag essentially replaces the <a> tag */}
         {/* Ativo <i className="fal fa-building"></i> */}
+        <h1>ATIVO SUITES</h1>
         {/* </Link> */}
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link
-              to="/addstudent"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Sign Up
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              Home
             </Link>
           </li>
           <li className="nav-item">
